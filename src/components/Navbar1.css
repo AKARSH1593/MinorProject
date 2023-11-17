@@ -1,0 +1,16 @@
+.pink-dropdown{
+    background-color: #cf1f31;
+}
+
+.dropdown-toggle::after{
+    display:none;
+}
+
+.navbar-icon {
+margin-right: 19vw; /* Adjust the margin to increase or decrease the gap */
+margin-left: 2vw;
+}
+
+.navbar-nav .nav-link {
+margin-right: 3vw; /* Adjust the margin to increase or decrease the gap */
+}

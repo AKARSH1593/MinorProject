@@ -1,0 +1,162 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.firsthpage{
+  background:rgb(255 49 49);
+}
+
+.header {
+  padding:1% 0%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: rgb(190, 20, 20);
+}
+
+.navbar{
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.navbar a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: x-large;
+  padding-inline: 2vw;
+  color: rgb(255, 255, 255);
+}
+
+.appname{
+  text-align: center;
+  font-size:1.2vw;
+  padding-right: 25%;
+  color:white;
+}
+.appname img{
+  padding: 4% 10%;
+  padding-bottom: 1%;
+  width: 80%;
+}
+
+.txtandimg{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+} 
+
+.texts{
+  margin-left: 15vw;
+  width: 40vw;
+  color:white;
+  font-size: larger;
+}
+
+.girlimg img{
+  padding-right:3vw;
+  width: 30vw;
+  height:25vw;
+}
+
+.btn{
+  
+  height: 3rem;
+  width: 10rem;
+  border-radius: 1.2vh;
+  background-color: white;
+  color: black;
+  border: 2px solid red;
+  font-weight:bolder;
+  font-size:large;
+}
+
+/* 2nd home page */
+
+.sechpg{
+  display:flex;
+  gap:2vw
+}
+
+.blocks1sthpg{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1vw;
+}
+
+.blocks1sth p{
+  color:white;
+  text-align: left;
+}
+
+.blocks1sth{
+  background: blue;
+  flex: 1 0 calc(25% - 20px);
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+/* 3rd home page */
+/* given in style.css file */
+
+/* 5th home page */
+.box5thpg{
+  border: 2px solid red;
+  background:red;
+  width:80%;
+  height:27vh;
+  box-sizing:border-box;
+  display:flex;
+  justify-content:flex-start;
+  align-items: center;
+  border-radius:1vw;
+  margin-top: 3vh;
+}
+
+.box5thpg input{
+  box-sizing: border-box;
+  width: 77%;
+  height:67%;
+  border-radius:1vw; 
+  margin: 3vw;
+  text-align:center;
+  font-size: larger;
+  border:none;
+}
+
+.fifthhomepage button{
+  background-color: red;
+  color:white;
+  border-radius:1vh;
+  padding:1vh;
+  margin:5vh 0.7vw;
+  border:none;
+}
+
+
+/* home footer */
+.footerhome{
+  background-color:#eda4a4 ;
+  padding: 1vh;
+}
+.footerhome ul {
+  list-style: none;
+}
+
+.footerhome li {
+  display: inline-block; 
+  margin-right: 2vw; 
+}
+
+.footerhome a {
+  text-decoration: none;
+  color: #000;
+
+}
+
+   

@@ -1,0 +1,79 @@
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+.slick-dots li:not(:first-child):not(:nth-child(2)):not(:nth-child(3)) {
+    display: none;
+  }
+
+
+/* styles.css */
+/* Add your existing styles here */
+
+/* Custom styles for slick-carousel dots */
+.custom-dots {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.custom-dots li {
+  width: 10px;
+  height: 10px;
+  background-color: #efb7b7;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.custom-dots li.slick-active {
+  background-color: #333;
+}
+
+.sliderhome {
+  height: 40vh;
+  border:2px solid rgb(255, 0, 25);
+  border-radius: 3%;
+  background: rgb(228, 208, 214);
+  width:25vw !important;
+  margin: 3vw 4vw;
+  text-align: center;
+
+}
+
+.sliderhome h3{
+  margin: 3vh;
+}
+
+/* 6th home page css */
+
+.box6thhpage{
+  border-radius:1vw;
+  background-color: red;
+  padding: 1vh 2.5vw;
+  padding-top: 4vh;
+  width: 65vw;
+  margin-left: 5vw;
+  margin-top:5vh;
+}
+
+.slider6thpg{
+  display:flex !important;
+  align-items: center;
+  gap:10vh;
+  padding-bottom: 2vh;
+  
+}
+.slider6thpg img{
+  width: 25vw;
+  height:60vh;
+  border-radius:3vw;
+}
+
+.txt6thhpg{
+  width: 30vw;
+  
+}
+
+
